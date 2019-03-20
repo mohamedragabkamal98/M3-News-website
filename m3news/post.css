@@ -1,0 +1,64 @@
+.postdiv{
+    padding:30px;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    background-color: black;
+    position: center;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 7px;
+        float: left;
+
+}
+.postdiv .s{
+	color: white;
+    margin:0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.postdiv .c{
+	color: white;
+    margin:0px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.postdiv .subject{
+	width: 600px;
+	height: 40px;
+	color: #FF0040;
+	font-size: 15px;
+}
+.postdiv .content{
+	margin-top:20px; 
+	width: 800px;
+	height: 100px;
+
+}
+.postdiv .d{
+	color: white;
+	margin-top:20px;
+	padding-top:110px;
+	 }
+.postdiv .department{
+	margin-top:5px;
+
+}
+.postdiv .post{
+	font-family: "Roboto","sans-serif"
+    outline: 0;
+    background-color: #4CAF50;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top:20px;
+    border-radius: 7px;
+    margin-left: 700px;
+
+
+}
+
+

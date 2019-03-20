@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>main</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+  <script language="javascript" type="text/javascript">
+    window.history.forward();
+  </script>
+<script>
+function validateForm() {
+  if (document.forms["register"]["username"].value == "") {
+    alert("User name must be filled out");
+    return false;
+  }
+      if (document.forms["register"]["email"].value == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+
+var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+if (reg.test(register.email.value) == false) 
+{
+	alert('Invalid email address');
+	register.email.focus();	
+	return false;
+}
+ if (document.forms["register"]["password"].value == "") {
+    alert("Password must be filled out");
+    return false;
+}
+
+
+    if (document.forms["register"]["telephone"].value == "" ){
+    alert("Telephone must be filled out");
+    return false;
+  }
+    	  	if (isNaN(document.forms["register"]["telephone"].value))
+  	{
+  		    alert("Telephone  must be numbers only");
+            return false;
+  	}
+    if (document.forms["register"]["telephone"].value.length !=11 )
+  	{
+  		    alert("Telephone  size must be 11 number");
+            return false;
+  	}
+
+}
+</script>
+
+   
+<div class="login_page">
+	<div class="form" >
+		<form class="register" id="register" name="register" onsubmit="return validateForm()" method="POST"  action="login.php">
+
+			<p>user name </p>
+			<input type="text" id="username" name="username"placeholder="user name">
+			<p>Email</p>
+			<input type="text" id="email" name="email" placeholder="Email">
+			<p>Password </p>
+      <input type="password" id="password" name="password"  placeholder="Password" >
+      <p>Mobile</p>
+      <input type="text" id="telephone" name="mobile" placeholder="Mobile">	
+      <input type="submit" name="Create" value="CREATE" class="create">
+      <p class="message">ALready Registered?  <a href="register1.php" >Login</a></p>
+		</form>
+		
+	</div>
+
+</div>
+</body>
+</html>>

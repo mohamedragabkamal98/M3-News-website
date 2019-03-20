@@ -1,0 +1,268 @@
+body{
+  background-image: url("back.png");
+  background-size: 100%;
+
+  background-size: cover;
+
+}
+p{
+   color: white;
+   font-size: 20px;
+   padding: 0 0 0 0;
+   margin: auto;
+   margin-bottom:15px;
+
+}
+.login_page{
+   
+width: 360px;
+padding: 10% 0 0;
+margin: auto;
+}
+.form{
+position: relative;
+z-index: 1;
+background:#270827;
+max-width:360px;
+margin:0 auto 100%;
+padding: 45px;
+text-align: center;
+}
+.form input{
+  font-family: "Roboto","sans-serif";
+  outline: 1;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+}
+.form .create{
+    font-family: "Roboto","sans-serif"
+    outline: 0;
+    background-color: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+.message{
+  font-size: 14px;
+  width: 100%;
+    padding: 15px;
+}
+.form .create:hover,.form button:active{
+  background: #43A047;
+}
+.form .message{
+  margin: 15px 0 0 ;
+  color: alicelblue;
+  font-size: 12px;
+}
+.form .message a{
+   color: #4CAF50;
+   text-decoration: none;
+
+}
+
+.form span{
+  color: white;
+   font-size: 16px;
+   padding: 0 0 0 0;
+   margin: auto;
+}
+.form .gendre{
+  font-family: "Roboto","sans-serif";
+  width: 30%;
+  border: 0;
+  padding: 20px;
+  margin: 0 0 15px;
+  margin-top: 10px;
+  margin-bottom:30px;
+  box-sizing: border-box;
+
+}body{
+  background-image: url("back.png");
+  background-size: 100%;
+
+  background-size: cover;
+
+}
+p{
+   color: white;
+   font-size: 20px;
+   padding: 0 0 0 0;
+   margin: auto;
+   margin-bottom:15px;
+
+}
+.login_page{
+   
+width: 360px;
+padding: 10% 0 0;
+margin: auto;
+}
+.form{
+position: relative;
+z-index: 1;
+background:#270827;
+max-width:360px;
+margin:0 auto 100%;
+padding: 45px;
+text-align: center;
+}
+.form input{
+  font-family: "Roboto","sans-serif";
+  outline: 1;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+}
+.form .create{
+    font-family: "Roboto","sans-serif"
+    outline: 0;
+    background-color: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+.message{
+  font-size: 14px;
+  width: 100%;
+    padding: 15px;
+}
+.form .create:hover,.form button:active{
+  background: #43A047;
+}
+.form .message{
+  margin: 15px 0 0 ;
+  color: alicelblue;
+  font-size: 12px;
+}
+.form .message a{
+   color: #4CAF50;
+   text-decoration: none;
+
+}
+
+.form span{
+  color: white;
+   font-size: 16px;
+   padding: 0 0 0 0;
+   margin: auto;
+}
+.form .gendre{
+  font-family: "Roboto","sans-serif";
+  width: 30%;
+  border: 0;
+  padding: 20px;
+  margin: 0 0 15px;
+  margin-top: 10px;
+  margin-bottom:30px;
+  box-sizing: border-box;
+
+}body{
+  background-image: url("back.png");
+  background-size: 100%;
+
+  background-size: cover;
+
+}
+p{
+   color: white;
+   font-size: 20px;
+   padding: 0 0 0 0;
+   margin: auto;
+   margin-bottom:15px;
+
+}
+.login_page{
+   
+width: 360px;
+padding: 10% 0 0;
+margin: auto;
+}
+.form{
+position: relative;
+z-index: 1;
+background:#270827;
+max-width:360px;
+margin:0 auto 100%;
+padding: 45px;
+text-align: center;
+}
+.form input{
+  font-family: "Roboto","sans-serif";
+  outline: 1;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+}
+.form .create{
+    font-family: "Roboto","sans-serif"
+    outline: 0;
+    background-color: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+.message{
+  font-size: 14px;
+  width: 100%;
+    padding: 15px;
+}
+.form .create:hover,.form button:active{
+  background: #43A047;
+}
+.form .message{
+  margin: 15px 0 0 ;
+  color: alicelblue;
+  font-size: 12px;
+}
+.form .message a{
+   color: #4CAF50;
+   text-decoration: none;
+
+}
+
+.form span{
+  color: white;
+   font-size: 16px;
+   padding: 0 0 0 0;
+   margin: auto;
+}
+.form .gendre{
+  font-family: "Roboto","sans-serif";
+  width: 30%;
+  border: 0;
+  padding: 20px;
+  margin: 0 0 15px;
+  margin-top: 10px;
+  margin-bottom:30px;
+  box-sizing: border-box;
+
+}
